@@ -141,22 +141,27 @@ Media Queries
 -------------*/
 
 /* Mobile Devies */
-@media only screen and (max-width:687) {
-    .first{
-        width: 100%;
-    }
+@media only screen and (max-width: 600px)   {
+   
+     .second {
+         width: 100%;
+     }
+     
     .second, .cameraa:hover, .third, .fourth, .fifth, .sixth{
         grid-template-columns: repeat(1,1fr);
 
     }
-    .second, .sixth, {
-        flex-direction: column;
+    
+    .second, .sixth {
+        flex-direction: column ;
+    } 
+        
     }
     .fifth{
         display: flex;
         flex-direction: column;
     }
-}
+
 
 
 
