@@ -1,0 +1,132 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poppins:wght@500;600&display=swap');
+/*----------
+ header
+ -------- */
+ h1{
+     font-size: 30px;
+     margin-left: 100px;
+ }
+ nav a {
+     text-decoration: none;
+     font-size: 20px;
+     color: black;
+     margin-right: 50px;     
+     
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    margin-top: 35px;
+}
+/* body */
+body{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* section-two */
+.second{
+    display: flex;
+}
+.second h1{
+    font-size: 45px;
+}
+.second p{
+    margin-left: 100px;
+}
+.second img{
+    margin-left: 150px;
+}
+button{
+    margin-left: 100px ;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(0, 65, 150);
+    border-radius: 41px;
+    font-family: cursive;
+}  
+/* logos */
+  .third{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+  }
+  .image-logo{
+      margin-left: 25px;
+  }
+  /* section-four */
+  .fourth h2{
+      margin-left: 45%;
+      margin-top: 100px;
+  }
+/* products style */
+.fifth{
+    display: grid;
+     grid-template-columns: repeat( 3 , 1fr);
+     margin-left: 50px;
+     margin-top: 50px;
+}
+.products .product-banner img{
+    width: 300px;
+    height: 200px;
+    margin-left: 14px;
+    margin-top: 14px;
+    
+}
+.fa-star {
+    color: gold;
+}
+.fa-star-half-alt{
+    color: gold;
+}
+.products{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px 10px rgba(128, 128, 128, 0.212);
+}
+.product-info  {
+    margin-left: 14px;
+    
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+}
+.product-info p{
+  margin-left: 5px;
+}
+/* section six */
+.new-image {
+    width: 400x;
+    height: 280px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.sixth{
+    display: flex;
+}
+.sixth h1{
+    font-size: 45px;
+    margin-top: 150px ;
+
+}
+.sixth p{
+    margin-right: 100px;
+    margin-left: 100px;
+  
+}
+/* section seventh */
+footer{
+    background-color: rgba(92, 26, 0, 0.966);
+    text-align-last: center;
+    
+}
+.new-logo{
+    padding: 20px;
+}
